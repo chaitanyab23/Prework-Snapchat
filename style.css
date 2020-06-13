@@ -86,9 +86,11 @@ h1 {
   cursor: pointer;
   margin-top: 200px;
 }
+
 footer {
   color: whitesmoke;
 }
+
 footer div {
   display: flex;
   justify-content: space-evenly;
@@ -101,7 +103,6 @@ footer div {
   font-size: 11px;
   font-weight: 300;
   line-height: 1.6;
-  color: gray;
   font-family: "Open Sans";
 }
 
@@ -110,6 +111,8 @@ footer div {
   font-size: 12px;
   margin-bottom: 10px;
   color: black;
+  text-align: left;
+  text-decoration: none;
 }
 
 .footer2 {
@@ -117,24 +120,42 @@ footer div {
   margin-left: 185px;
 }
 
-.bottom {
-  background-color: black;
-  color: white;
-  margin-top: 15px;
-  padding-bottom: 20px;
-  padding-top: 5px;
+.foot-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: gray;
 }
+
+.div1 {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-top: 15px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+
+}
+
 .footer3 {
   display: flex;
-
   justify-content: space-evenly;
+  list-style: none;
 
-  text-decoration: none;
-  text-align: left;
-  margin-right: 100px;
 }
 
 .list3 {
   list-style: none;
-  align-items: left;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Open Sans";
+}
+
+.foot-link2 {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
