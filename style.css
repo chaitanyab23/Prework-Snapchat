@@ -48,6 +48,12 @@ section {
   height: 300px;
 }
 
+.name {
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 section div {
   display: flex;
   justify-content: space-around;
